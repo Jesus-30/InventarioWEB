@@ -2,9 +2,136 @@
 <%@ page pageEncoding="UTF-8" %>
 <%--<h2>Hello World!</h2>--%>
 <%--Aca cierran los div que se abrieron en encabezado.jspf--%>
-
-<div class="pie">
-        &COPY; Jesús Adalberto Henríquez Blanco
-    </div>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="bootstrap337/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>     
+</head>
+ <style>
+     .pie1{
+         background: #202326;
+         color: white;
+         padding: 40px;
+     }
+     .contenedorall{
+         width: 100%;
+         max-width: 1200px;
+         margin: auto;
+     }
+     .Contenedor{
+         display: flex;
+         justify-content: space-between;
+     }
+     .colum01{
+         max-width: 400px;
+     }
+     .colum01 h1{
+         font-size: 22px;
+     }
+     .colum01 p{
+         font-size: 14px;
+         color: #818182;
+         margin-top: 20px;
+     }
+     .colum02{
+         max-width: 400px;
+     }
+     .colum02 h1{
+         font-size: 22px;
+         margin-left: 20px;
+     }
+     .row{
+         margin-top: 30px;
+         margin-left: 10px;
+         display: flex;
+         color: #818182;
+     }
+     .colum03{
+         max-width: 400px;
+     }
+     .colum03 h1{
+         font-size: 22px;
+     }
+     .row2{
+         margin-left: 20px;
+         max-width: 150px;
+     }
+     .pie2{
+         border-radius: 1000px;
+         width: 100%;
+         background: #171a1d;
+         display: flex;
+         justify-content: space-between;
+         padding: 10px;
+     }
+     .copyright{
+         color: #818182;
+     }
+     a{
+         color: white;
+         margin-top: 10px;
+         margin-left: 10px;
+     }
+     ul{
+         margin-right: -50px;
+         margin-left: -50px;
+     }
+ </style>
+ <footer class="pie1">
+     <div class="contenedorall">
+     <div class="Contenedor">
+         <div class="colum01">
+             <h1>ITCA-FEPADE Zacatecoluca</h1>
+             <p>En La Escuela Especializada en Ingeniería ITCA-FEPADE estamos comprometidos con la calidad académica, la empresarialidad y la pertinencia de nuestra oferta educativa.</p>             
+         </div>
+         <div class="colum02">
+             <h1>Redes Sociales</h1>
+             <div class="row"> 
+                 <ul>
+                     <a href="https://www.facebook.com/ITCA-FEPADE-Sitio-Oficial-187531457964501/"><li class="fa fa-facebook-square fa-2x"></li> Siguenos en Facebook</a>
+                 </ul>
+             </div>             
+             <div class="row">
+                 <ul>
+                     <a href="#"><li class="fa fa-instagram fa-2x"></li> Siguenos en Intagram</a>
+                 </ul>
+             </div>             
+             <div class="row">
+                 <ul>
+                     <a href="https://twitter.com/login?lang=es"><li class="fa fa-twitter-square fa-2x"></li> Siguenos en Twitter</a>
+                 </ul>
+             </div>
+         </div>
+         <div class="colum03">
+             <h1>Información Contactos</h1>             
+             <div class="row2">
+                 <ul>
+                     <a href="https://www.google.com/maps/dir/13.4849398,-89.3131969/itca+fepade+zacatecoluca/@13.4872707,-89.3701926,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8f7cac805c4b2a5b:0x48737e8dd6a3d0df!2m2!1d-88.866712!2d13.496509"><li class="fa fa-compass fa-2x"></li>   Zacatecoluca, La Paz</a>
+                 </ul>
+             </div>
+             <div class="row2">
+                 <ul>
+                     <a href="#"><li class="fa fa-mobile fa-2x"></li> +503 2334 0763</a>
+                 </ul>
+             </div>
+             <div class="row2">
+                 <ul>
+                     <a href="https://apps.itca.edu.sv/tecniquito/"><li class="fa fa-envelope fa-2x"></li> itcaedu.sv.com</a>
+                 </ul>
+             </div>
+         </div>
+     </div>
+     </div>
+     <br>
+     <div class="pie2">
+         <div class="copyright">
+             © Sistemas 22 aula "B" 2020
+         </div>
+         <div class="Informacion2">
+             <a href="#">Jesús Henríquez | </a>
+             <a href="#">Estefany Yamileth | </a>
+             <a href="#">Jorge Ernesto</a>
+         </div>
+     </div>
+ </footer>
 
 

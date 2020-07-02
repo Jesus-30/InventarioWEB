@@ -1,8 +1,3 @@
-<%-- 
-    Document   : acercade
-    Created on : 30/06/2020, 07:12:49 PM
-    Author     : HP
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -25,7 +20,7 @@
                             <div class="card-section border rounded ml-4 mr-4" style="margin-top: 80px;">
                                 <div class="card-header card-header-second rounded">
                                      <img src="bootstrap337/img/usuario.png" height="200px" class="rounded-circle">
-		                     <h2 class="card-header-title mb-3 mt-1 text-white">Nombre</h2>
+		                     <h2 class="card-header-title mb-3 mt-1 text-white">Estefany Linares</h2>
 		                </div>
 		                <div class="card-body text-center" style="background-color: #ffc107">
 		                    <p class="card-text">Backend</p>
@@ -43,7 +38,7 @@
 		            <div class="card-section border rounded ml-4 mr-4" id="carta01" style="margin-top: 80px;">
 		                <div class="card-header card-header-second rounded">
                                      <img src="bootstrap337/img/usuario.png" height="200px" class="rounded-circle">
-		                     <h2 class="card-header-title mb-3 mt-1 text-white">Nombre</h2>
+		                     <h2 class="card-header-title mb-3 mt-1 text-white">Jesús Henríquez</h2>
 		                </div>
 		                <div class="card-body text-center" style="background-color: #ffc107">
 		                    <p class="card-text">Scrum Master</p>
@@ -61,7 +56,7 @@
                             <div class="card-section border rounded ml-4 mr-4" style="margin-top: 80px;">
 		                <div class="card-header card-header-second rounded">
                                      <img src="bootstrap337/img/usuario.png" height="200px" class="rounded-circle">
-		                     <h2 class="card-header-title mb-3 mt-1 text-white">Nombre</h2>
+		                     <h2 class="card-header-title mb-3 mt-1 text-white">Jorge Ernesto</h2>
 		                </div>
 		                <div class="card-body text-center" style="background-color: #ffc107">
 		                    <p class="card-text">Frontend</p>
@@ -78,5 +73,6 @@
 	        </div>
 	    </div>
 	</div>
+         <%@include file="WEB-INF/Vistas-Parciales/pie.jspf"%>
     </body>
 </html>

@@ -1,12 +1,11 @@
 .encabezado {
-        background-color: #286090;
-        color: #fff;
+        background: #343a40;
+        color: white;
         font-size: 20px;
-        height: 80px;
-        background: url(../img/wallhaven-6kegww_1600x968.png);
+        height: 60px;
 }
 .saludo{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 900px;
     margin-left: auto;
     margin-right: auto;
