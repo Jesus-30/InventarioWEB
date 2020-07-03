@@ -27,7 +27,7 @@ public class Producto {
         this.des_producto = "";
     }
 
-    public Producto(int id_producto, String nom_producto, String categoria_id, float stock, float precio, 
+    public Producto(int id_producto, String nom_producto, String categoria_id, double stock, double precio, 
             String unidadMedida, int estado,String des_producto, Date fecha_entrada, Categoria categoria) {
         
         this.id_producto = id_producto;
@@ -69,7 +69,7 @@ public class Producto {
         return stock;
     }
 
-    public void setStock(float stock) {
+    public void setStock(double stock) {
         this.stock = stock;
     }
 
