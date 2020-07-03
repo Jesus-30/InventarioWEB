@@ -11,6 +11,7 @@
         <!--LA EXTENCION .do porque en la URL pattern(s)esta .do (opcional para saver que era un servlet) -->
         <a href="index.do" class="btn btn-warning" role="button">Inicio</a>
         <a href="categorias.do?opcion=listar" class="btn btn-warning" role="button">Categorias</a>
+        <a href="productos?opcion=listar" class="btn btn-warning" role="button">Productos</a>
         <a href="acercade.jsp" class="btn btn-warning" role="button">Acerca de</a>
     </div>
     <div class="contenido">
