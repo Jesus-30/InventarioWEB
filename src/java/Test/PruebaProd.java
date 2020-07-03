@@ -23,7 +23,7 @@ public class PruebaProd {
     }
      public void listarProducto(){
         ProductoDAO producto = new ProductoDAOImplementar();
-        CategoriaDAO categoria = new CategoriaDAOImplementar();
+        CategoriaDAO cat = new CategoriaDAOImplementar();
         Categoria ct = new Categoria();
         List<Producto> listar = producto.Listar();
         System.out.println("LISTADO DE PRODUCTOS");
