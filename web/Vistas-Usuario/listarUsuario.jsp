@@ -43,13 +43,18 @@
                     <td><%= usuario.getPregunta() %></td>
                     <td><center><%= usuario.getRepuesta() %></center></td>
                     <td><center><%= usuario.getFecha_registro() %></center></td>
-                   
+                    <td>                        
+                        <a href="<%= request.getContextPath() %>/usuario?opcion=modificar&&id_u=<%= usuario.getId() %>&&nombre_u=<%= usuario.getNombre() %>&&apellido_u=<%= usuario.getApellido() %>&&correo_u=<%= usuario.getCorreo() %>&&usuario_u=<%= usuario.getUsuario() %>&&clave_u=<%= usuario.getClave() %>&&tipo_u=<%= usuario.getTipo() %>&&estado_u=<%= usuario.getEstado() %>&&pregunta_u=<%= usuario.getPregunta() %>&&respuesta_u=<%= usuario.getRepuesta() %>" class="btn btn-info btn-sm glyphicon glyphicon-edit" role="button" name="btnModificar">Editar</a>
+                        
+                        <a href="<%= request.getContextPath() %>/usuario?opcion=eliminar&&id=<%= usuario.getId() %>" class="btn btn-danger btn-sm glyphicon glyphicon-remove" role="button">Eliminar</a>
+                    </td>
                 </tr>
                 <%
                     }
                 %>
             </table>
-     
+     <a id="crear" href="<%= request.getContextPath() %>/usuario?opcion=crear" class="btn btn-success" role="button"> Nuevo Usuario</a>            
+  <a id="pdf" href="crearPDF" class="btn btn-warning">Imprimir PDF</a>
         </div>
     
         <%@include file="../WEB-INF/Vistas-Parciales/pie.jspf"%>

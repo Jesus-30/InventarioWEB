@@ -128,7 +128,19 @@ ConexionDB conn;
 
     @Override
     public boolean borrarUsuario(int id_U_borrar) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+        this.conn = FactoryConexionDB.open(FactoryConexionDB.MySQL);
+        boolean borrar = false;
+        try {
+            StringBuilder miSql = new StringBuilder();
+            miSql.append("DELETE FROM tb_usuario where id =").append(id_U_borrar);
+            this.conn.ejecutarSQL(miSql.toString());
+            borrar = true;
+        } catch (Exception ex) {
+        
+        } finally {
+            this.conn.cerrarConexion();
+        }
+        return borrar;
     
 }
+      }
