@@ -14,6 +14,7 @@
         <a href="productos?opcion=listar" class="btn btn-warning" role="button">Productos</a>
         <a href="usuario?opcion=listar" class="btn btn-warning" role="button">Usuarios</a>
         <a href="acercade.jsp" class="btn btn-warning" role="button">Acerca de</a>
+        <a href="login.jsp" class="btn btn-danger" role="button">Salir</a>
     </div>
     <div class="contenido">
         <!--Este div cierra en pie.jspf -->

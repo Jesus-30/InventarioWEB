@@ -9,6 +9,12 @@
         <link href="bootstrap337/css/estilo-base.css" rel="stylesheet" type="text/css"/>
         <title>Acerca de</title>
     </head>
+    <style>
+        img{
+            height: 250px;
+        }
+        
+    </style>
     <body>
          <%@include file = "WEB-INF/Vistas-Parciales/encabezado.jspf" %>
          <div class="container">
@@ -19,7 +25,7 @@
                         <div class="col-lg-4 col-md-12 mb-4">
                             <div class="card-section border rounded ml-4 mr-4" style="margin-top: 80px;">
                                 <div class="card-header card-header-second rounded">
-                                     <img src="bootstrap337/img/usuario.png" height="200px" class="rounded-circle">
+                                    <img src="bootstrap337/img/WhatsApp Image 2020-07-03 at 19.02.50.jpeg" height="200px" class="rounded-circle" width="200px;">
 		                     <h2 class="card-header-title mb-3 mt-1 text-white">Estefany Linares</h2>
 		                </div>
 		                <div class="card-body text-center" style="background-color: #ffc107">
@@ -37,7 +43,7 @@
 	                <div class="col-lg-4 col-md-12 mb-4">
 		            <div class="card-section border rounded ml-4 mr-4" id="carta01" style="margin-top: 80px;">
 		                <div class="card-header card-header-second rounded">
-                                     <img src="bootstrap337/img/usuario.png" height="200px" class="rounded-circle">
+                                    <img src="bootstrap337/img/WhatsApp Image 2020-07-03 at 17.56.24.jpeg" height="200px" class="rounded-circle" width="180px">
 		                     <h2 class="card-header-title mb-3 mt-1 text-white">Jesús Henríquez</h2>
 		                </div>
 		                <div class="card-body text-center" style="background-color: #ffc107">
@@ -55,8 +61,8 @@
 	                <div class="col-lg-4 col-md-12 mb-4">
                             <div class="card-section border rounded ml-4 mr-4" style="margin-top: 80px;">
 		                <div class="card-header card-header-second rounded">
-                                     <img src="bootstrap337/img/usuario.png" height="200px" class="rounded-circle">
-		                     <h2 class="card-header-title mb-3 mt-1 text-white">Jorge Ernesto</h2>
+                                    <img src="bootstrap337/img/WhatsApp Image 2020-07-04 at 00.18.04.jpeg" height="200px" class="rounded-circle" width="200px;">
+		                     <h2 id="jorge"class="card-header-title mb-3 mt-1 text-white">Jorge Ernesto</h2>
 		                </div>
 		                <div class="card-body text-center" style="background-color: #ffc107">
 		                    <p class="card-text">Frontend</p>
